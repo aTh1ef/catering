@@ -1,0 +1,156 @@
+/*-------------------------------------------------------------------
+# Hero Section
+-------------------------------------------------------------------*/
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url('../../../public/assets/images/hero-bg.jpg') top center no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 0;
+  }
+  
+  #hero::before {
+    content: '';
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  
+  #hero .container {
+    position: relative;
+    z-index: 2;
+    padding: 0 15px; /* Add padding for small screens */
+  }
+  
+  #hero h1 {
+    margin: 0;
+    font-size: 4rem; /* Adjust font size for larger screens */
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Elegant shadow effect */
+  }
+  
+  @media (max-width: 768px) {
+    #hero h1 {
+      font-size: 3rem; /* Decrease font size for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #hero h1 {
+      font-size: 2rem; /* Decrease font size for even smaller screens */
+    }
+  }
+  
+  #hero h1 span {
+    color: #cda45e;
+    white-space: nowrap; /* Ensure the text stays together */
+  }
+  
+  #hero h2 {
+    color: #eee;
+    margin: 20px 0 10px 0; /* Adjust margin for spacing */
+    font-size: 1.5rem; /* Adjust font size for larger screens */
+    font-weight: 300;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Elegant shadow effect */
+  }
+  
+  @media (max-width: 768px) {
+    #hero h2 {
+      font-size: 1.2rem; /* Decrease font size for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #hero h2 {
+      font-size: 1rem; /* Decrease font size for even smaller screens */
+    }
+  }
+  
+  #hero .btns {
+    margin-top: 20px; /* Adjust margin */
+    display: flex;
+    justify-content: flex-start; /* Align buttons to the left */
+    gap: 10px;
+    flex-wrap: wrap; /* Allow buttons to wrap on small screens */
+  }
+  
+  @media (max-width: 768px) {
+    #hero .btns {
+      justify-content: center; /* Center align buttons on mobile */
+    }
+  }
+  
+  #hero .play-btn {
+    width: 80px; /* Decrease width for small screens */
+    height: 80px; /* Decrease height for small screens */
+    background: radial-gradient(#cda45e 50%, rgba(205, 164, 94, 0.4) 52%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 20px; /* Adjust margin for spacing */
+  }
+  
+  #hero .play-btn::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-left: 12px solid #fff; /* Decrease arrow size for small screens */
+    border-top: 6px solid transparent; /* Decrease arrow size for small screens */
+    border-bottom: 6px solid transparent; /* Decrease arrow size for small screens */
+  }
+  
+  @media (max-width: 480px) {
+    #hero .play-btn {
+      width: 60px; /* Further decrease width for even smaller screens */
+      height: 60px; /* Further decrease height for even smaller screens */
+    }
+  
+    #hero .play-btn::after {
+      border-left: 8px solid #fff; /* Further decrease arrow size for even smaller screens */
+      border-top: 4px solid transparent; /* Further decrease arrow size for even smaller screens */
+      border-bottom: 4px solid transparent; /* Further decrease arrow size for even smaller screens */
+    }
+  }
+  
+  /* Hero Button Styles */
+  #hero .btn-hero {
+    font-weight: bold; /* Make text bold */
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+    line-height: 1;
+    color: white;
+    border: 2px solid #cda45e;
+    cursor: pointer;
+  }
+  
+  #hero .btn-hero:hover {
+    background: #cda45e;
+    color: #fff;
+  }
+  
