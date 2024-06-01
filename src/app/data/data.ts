@@ -1,3 +1,5 @@
+import { title } from "process";
+
 export interface NavItem {
     id: number;
     name: string;
@@ -13,4 +15,23 @@ export const navs: NavItem[] = [
     { id: 5, name: 'Events', target: 'events', active: false },
     { id: 6, name: 'Chefs', target: 'chefs', active: false },
     { id: 7, name: 'Gallery', target: 'gallery', active: false },
+];
+
+export const whyUs=[
+    {
+    id: 1,
+    title:'Lorem Ipsum',
+    content: `info 1`,
+    },
+    {
+        id: 2,
+        title:'Lorem Ipsum',
+        content: `info 2`,
+        },
+        {
+            id: 3,
+            title:'Lorem Ipsum',
+            content: `info 3`,
+            },
+
 ];
