@@ -1,0 +1,51 @@
+/* Style for menu section */
+#menu {
+    padding: 50px 0; /* Add padding as needed */
+}
+
+/* Style for menu filters */
+#menu-filters {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#menu-filters li {
+    cursor: pointer;
+    padding: 10px 20px; /* Adjust padding as needed */
+    margin-right: 10px; /* Adjust margin as needed */
+    font-size: 16px;
+    font-weight: bold;
+    color: #fbfbfb; /* Adjust color as needed */
+    border-radius: 5px; /* Adjust border radius as needed */
+    background-color: transparent; /* Set background color as transparent */
+    transition: color 0.3s ease; /* Add transition effect for color */
+}
+
+#menu-filters li:hover,
+#menu-filters li.active {
+    color: #cda45e; /* Adjust hover/active text color as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add slight shadow box on hover/active */
+}
+
+#menu-filters li.selected {
+    /* Apply styles for the selected filter */
+    background-color: #cda45e;
+    color: #fff;
+}
+
+#menu-filters li.filter-active.selected {
+    /* Apply styles for the selected and active filter */
+    background-color: #cda45e;
+    color: #fff;
+}
+
+#menu-filters li.filter-active {
+    /* Apply styles for the active filter */
+    background-color: #f3f3f3;
+    color: #555;
+}
+
+
