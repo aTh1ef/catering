@@ -896,35 +896,35 @@ export const whyUs = [
   export const gallery = [
     {
       id: 1,
-      image: '/assets/images/gallery/gallery-1.jpg',
+      image: '/assets/images/gallery/gallery1.jpg',
     },
     {
       id: 2,
-      image: '/assets/images/gallery/gallery-2.jpg',
+      image: '/assets/images/gallery/gallery2.jpg',
     },
     {
       id: 3,
-      image: '/assets/images/gallery/gallery-3.jpg',
+      image: '/assets/images/gallery/gallery3.jpg',
     },
     {
       id: 4,
-      image: '/assets/images/gallery/gallery-4.jpg',
+      image: '/assets/images/gallery/gallery4.jpg',
     },
     {
       id: 5,
-      image: '/assets/images/gallery/gallery-5.jpg',
+      image: '/assets/images/gallery/gallery5.jpg',
     },
     {
       id: 6,
-      image: '/assets/images/gallery/gallery-6.jpg',
+      image: '/assets/images/gallery/gallery6.jpg',
     },
     {
       id: 7,
-      image: '/assets/images/gallery/gallery-7.jpg',
+      image: '/assets/images/gallery/gallery7.jpg',
     },
     {
       id: 8,
-      image: '/assets/images/gallery/gallery-8.jpg',
+      image: '/assets/images/gallery/gallery8.jpg',
     },
   ];
   
