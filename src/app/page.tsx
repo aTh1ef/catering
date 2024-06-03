@@ -5,6 +5,7 @@ import WhyUs from './sections/WhyUs';
 import Menu from './sections/Menu';
 import Events from './sections/Events';
 import Gallery from './sections/Gallery';
+import Booking from './sections/Booking';
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Menu />
       <Events />
       <Gallery />
+      <Booking />
     </main>
     </>
   );
