@@ -6,6 +6,7 @@ import Menu from './sections/Menu';
 import Events from './sections/Events';
 import Gallery from './sections/Gallery';
 import Booking from './sections/Booking';
+import Contact from './sections/Contact';
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <Events />
       <Gallery />
       <Booking />
+      <Contact />
     </main>
     </>
   );
