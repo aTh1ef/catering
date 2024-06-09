@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import React, { useState, useEffect } from 'react';
 import './header.css';
@@ -28,13 +28,10 @@ export default function Header() {
       }`}
     >
       <div className="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
-        <h1 className="logo me-auto me-lg-0">
-          <a href="/">Tellis Catering</a>
-        </h1>
         {/* Uncomment below if you have an image logo */}
-        {/* <a href="index.html" className="logo me-auto me-lg-0">
-          <img src="assets/img/logo.png" alt="" className="img-fluid" />
-        </a> */}
+        <a href="/" className="logo me-auto me-lg-0">
+          <img src="assets/images/logofinal.png" alt="Tellis Catering" className="img-fluid" />
+        </a>
         <Nav />
         <AppBtn name="book a table"/>
       </div>

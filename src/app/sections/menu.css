@@ -14,14 +14,23 @@
 
 #menu-filters li {
     cursor: pointer;
-    padding: 10px 20px; /* Adjust padding as needed */
-    margin-right: 10px; /* Adjust margin as needed */
-    font-size: 16px;
+    padding: 8px 12px; /* Adjust padding for mobile view */
+    margin-right: 8px; /* Adjust margin as needed */
+    font-size: 14px; /* Adjust font size for mobile view */
     font-weight: bold;
     color: #fbfbfb; /* Adjust color as needed */
     border-radius: 5px; /* Adjust border radius as needed */
     background-color: transparent; /* Set background color as transparent */
     transition: color 0.3s ease; /* Add transition effect for color */
+}
+
+/* Media query for smaller screens (up to 768px) */
+@media (max-width: 768px) {
+    #menu-filters li {
+        padding: 6px 10px; /* Further reduce padding for smaller screens */
+        font-size: 12px; /* Further reduce font size for smaller screens */
+        margin-right: 6px; /* Adjust margin as needed */
+    }
 }
 
 #menu-filters li:hover,

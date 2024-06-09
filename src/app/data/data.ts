@@ -18,25 +18,23 @@ export const navs: NavItem[] = [
 ];
 
 export const whyUs = [
-    {
-      id: 1,
-      title: 'Lorem Ipsum',
-      content: `Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et
-          consectetur ducimus vero placeat`,
-    },
-    {
-      id: 2,
-      title: 'Repellat Nihil',
-      content: `Dolorem est fugiat occaecati voluptate velit esse. Dicta
-      veritatis dolor quod et vel dire leno para dest`,
-    },
-    {
-      id: 3,
-      title: 'Ad ad velit qui',
-      content: `Molestiae officiis omnis illo asperiores. Aut doloribus vitae
-      sunt debitis quo vel nam quis`,
-    },
-  ];
+  {
+    id: 1,
+    title: 'Decades of Experience',
+    content: `With over two decades of experience in catering, serving, and conducting events, we bring unmatched expertise to every occasion.`,
+  },
+  {
+    id: 2,
+    title: 'Excellence in Mangalore',
+    content: `Proudly recognized as one of the best in Mangalore, our commitment to quality and service sets us apart.`,
+  },
+  {
+    id: 3,
+    title: 'Amazing Food',
+    content: `We cook incredible food using only the finest natural ingredients, ensuring every bite is delightful.`,
+  },
+];
+
   
   export const menu = [
     {
@@ -720,178 +718,57 @@ export const whyUs = [
     },
 ];
 
-  
-  export const specials = [
-    {
-      id: 1,
-      image: './assets/images/specials/specials-1.png',
-      title: 'Architecto ut aperiam autem id',
-      subtitle:
-        'Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka',
-      content:
-        'Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero',
-      active: true,
-    },
-    {
-      id: 2,
-      image: './assets/images/specials/specials-2.png',
-      title: 'Et blanditiis nemo veritatis excepturi',
-      subtitle:
-        'Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka',
-      content:
-        'Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal',
-      active: false,
-    },
-    {
-      id: 3,
-      image: './assets/images/specials/specials-3.png',
-      title: 'Impedit facilis occaecati odio neque aperiam sit',
-      subtitle:
-        'Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut',
-      content:
-        'Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae',
-      active: false,
-    },
-    {
-      id: 4,
-      image: './assets/images/specials/specials-4.png',
-      title:
-        'Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore',
-      subtitle:
-        'Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus',
-      content:
-        'Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore',
-      active: false,
-    },
-    {
-      id: 5,
-      image: './assets/images/specials/specials-5.png',
-      title: 'Est eveniet ipsam sindera pad rone matrelat sando reda',
-      subtitle: 'Omnis blanditiis saepe eos autem qui sunt debitis porro quia.',
-      content:
-        'Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel',
-      active: false,
-    },
-  ];
-  
-  export const specialsFilters = [
-    {
-      id: 1,
-      name: 'Modi sit est',
-      active: true,
-    },
-    {
-      id: 2,
-      name: 'Unde praesentium sed',
-      active: false,
-    },
-    {
-      id: 3,
-      name: 'Pariatur explicabo vel',
-      active: false,
-    },
-    {
-      id: 4,
-      name: 'Nostrum qui quasi',
-      active: false,
-    },
-    {
-      id: 5,
-      name: 'Iusto ut expedita aut',
-      active: false,
-    },
-  ];
-  
-  export const events = [
-    {
-      id: 1,
-      image: './assets/images/events/event-birthday.jpg',
-      title: 'Birthday Parties',
-      price: 189,
-      content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua.`,
-      details: [
-        'Ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        'Duis aute irure dolor in reprehenderit in voluptate velit.',
-        'Ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      ],
-      summary: `Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur`,
-    },
-    {
-      id: 2,
-      image: './assets/images/events/event-private.jpg',
-      title: 'Private Parties',
-      price: 290,
-      content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua.`,
-      details: [
-        'Ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        'Duis aute irure dolor in reprehenderit in voluptate velit.',
-        'Ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      ],
-      summary: `Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur`,
-    },
-    {
-      id: 3,
-      image: './assets/images/events/event-custom.jpg',
-      title: 'Custom Parties',
-      price: 99,
-      content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua.`,
-      details: [
-        'Ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        'Duis aute irure dolor in reprehenderit in voluptate velit.',
-        'Ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      ],
-      summary: `Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur`,
-    },
-  ];
-  
-  export const testimonials = [
-    {
-      id: 1,
-      content: `Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. 
-      Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.`,
-      avatar: './assets/images/testimonials/testimonials-1.jpg',
-      client: 'Saul Goodman',
-      position: 'CEO',
-    },
-    {
-      id: 2,
-      content: `Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum 
-      eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.`,
-      avatar: './assets/images/testimonials/testimonials-2.jpg',
-      client: 'Sara Wilsson',
-      position: 'Consultant',
-    },
-    {
-      id: 3,
-      content: `Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis 
-      minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.`,
-      avatar: './assets/images/testimonials/testimonials-3.jpg',
-      client: 'Jena Karlis',
-      position: 'Store Owner',
-    },
-    {
-      id: 4,
-      content: `Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim 
-      velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.`,
-      avatar: './assets/images/testimonials/testimonials-4.jpg',
-      client: 'Matt Brandon',
-      position: 'Freelancer',
-    },
-    {
-      id: 5,
-      content: `Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim
-       culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.`,
-      avatar: './assets/images/testimonials/testimonials-5.jpg',
-      client: 'John Larson',
-      position: 'Entrepreneur',
-    },
-  ];
+export const events = [
+  {
+    id: 1,
+    image: './assets/images/events/events-wedding.jpg',
+    title: 'Wedding Events',
+    content: `We organize all types of wedding events from Mehendi, Haldi to the actual wedding. We offer a wide variety of delicious food and beautiful decorations.`,
+    details: [
+      'Professional event planning and coordination.',
+      'Customized menu with gourmet catering options.',
+      'Elegant and personalized decorations.',
+      'Experienced staff to ensure everything goes smoothly.',
+    ],
+  },
+  {
+    id: 2,
+    image: './assets/images/events/event-birthday.jpg',
+    title: 'Birthday Parties',
+    content: `We organize birthday parties, from decorations to baking delicious cakes. We handle everything to make your celebration special.`,
+    details: [
+      'Creative and fun-themed decorations.',
+      'Custom cakes and desserts.',
+      'Fun activities and entertainment for all ages.',
+      'Personalized party favors and gifts.',
+    ],
+  },
+  {
+    id: 3,
+    image: './assets/images/events/event-private.jpg',
+    title: 'Private Events',
+    content: `We organize private events like church events and similar gatherings. We provide comprehensive services to make your event memorable.`,
+    details: [
+      'Event planning tailored to your needs.',
+      'High-quality audio and visual equipment.',
+      'Catering services with a variety of menu options.',
+      'Professional and friendly staff.',
+    ],
+  },
+  {
+    id: 4,
+    image: './assets/images/events/event-custom.jpg',
+    title: 'Custom Parties',
+    content: `We organize custom parties like DJ events and DJ nights. We provide the DJ, the whole setup, and decorations to make your party unforgettable.`,
+    details: [
+      'Top-notch DJ services and equipment.',
+      'Vibrant lighting and sound systems.',
+      'Themed decorations for a great party atmosphere.',
+      'Professional event hosts and entertainers.',
+    ],
+  },
+];
+
   
   export const gallery = [
     {
@@ -928,29 +805,7 @@ export const whyUs = [
     },
   ];
   
-  export const chefs = [
-    {
-      id: 1,
-      name: 'Walter White',
-      photo: './assets/images/chefs/chefs-1.jpg',
-      position: 'Master Chef',
-      delay: '100',
-    },
-    {
-      id: 2,
-      name: 'Sarah Jhonson',
-      photo: './assets/images/chefs/chefs-2.jpg',
-      position: 'Patissier',
-      delay: '200',
-    },
-    {
-      id: 3,
-      name: 'William Anderson',
-      photo: './assets/images/chefs/chefs-3.jpg',
-      position: 'Cook',
-      delay: '300',
-    },
-  ];
+ 
   
   
   export const bookings = [

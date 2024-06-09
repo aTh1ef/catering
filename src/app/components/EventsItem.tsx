@@ -22,9 +22,6 @@ export default function EventsItem({
         <div className="col-lg-6 pt-4 pt-lg-0 content">
             <h3>{item.title}</h3>
             <div className="price">
-                <p>
-                    <span>$(item.price)</span>
-                </p>
             </div>
             <p className="fst-italic">{item.content}</p>
             <ul>

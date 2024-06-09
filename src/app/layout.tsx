@@ -12,7 +12,6 @@ import { Playfair_Display } from "next/font/google";
 import "./globals.css";
 
 //import customised component
-import TopBar from './components/TopBar';
 import Header from './components/Header';
 import BackToTopBtn from './components/BackToTopBtn';
 
@@ -36,7 +35,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={playfair.className}>
-        <TopBar/>
         <Header/>
         {children}
         <BackToTopBtn />
@@ -45,7 +43,7 @@ export default function RootLayout({
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
       crossOrigin="anonymous">
-      </script>"
+      </script>
       </html>
   );
 }

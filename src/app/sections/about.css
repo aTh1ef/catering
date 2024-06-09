@@ -1,11 +1,8 @@
-/*-----------------------------------------
-#About
------------------------------------------*/
 .about {
     background: url('../../../public/assets/images/about-bg.jpg') center center;
     background-size: cover;
     position: relative;
-    padding: 80px 0; /* Corrected the padding property */
+    padding: 80px 0;
 }
 
 .about::before {
@@ -20,7 +17,7 @@
 
 .about .about-img {
     position: relative;
-    transition: transform 0.5s; /* Improved readability */
+    transition: transform 0.5s;
 }
 
 .about .about-img img {
@@ -40,7 +37,7 @@
     content: '';
     border-left: 5px solid #cda45e;
     border-top: 5px solid #cda45e;
-    transition: left 0.5s, top 0.5s; /* Specified properties for transition */
+    transition: left 0.5s, top 0.5s;
 }
 
 .about .about-img::after {
@@ -53,7 +50,7 @@
     content: '';
     border-right: 5px solid #cda45e;
     border-bottom: 5px solid #cda45e;
-    transition: right 0.5s, bottom 0.5s; /* Specified properties for transition */
+    transition: right 0.5s, bottom 0.5s;
 }
 
 .about .about-img:hover {
@@ -98,8 +95,22 @@
     margin-bottom: 0;
 }
 
+.about-title {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    position: relative;
+    z-index: 1;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: left; /* Added text-align: left; */
+}
+
 @media (min-width: 1024px) {
     .about {
         background-attachment: fixed;
     }
 }
+
+
+

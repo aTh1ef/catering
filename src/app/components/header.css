@@ -7,7 +7,7 @@
     transition: all 0.5s;
     z-index: 997;
     padding: 15px 0;
-    top: 40px;
+    top: 0px;
 }
 
 #header.header-scrolled {
@@ -32,5 +32,19 @@
 }
 
 #header .logo img {
-    max-height: 40px;
+    height: 100px; /* Set the desired height for larger screens */
+    width: auto;  /* Maintain aspect ratio */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    #header .logo img {
+        height: 85px; /* Adjust the height for mobile view */
+    }
+}
+
+@media (max-width: 480px) {
+    #header .logo img {
+        height: 75px; /* Adjust the height for very small screens */
+    }
 }
