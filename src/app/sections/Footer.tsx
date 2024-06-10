@@ -42,26 +42,26 @@ export default function Footer() {
             </div>
 
             <div className="col-lg-2 col-md-6 footer-links">
-              <h4>Useful Links</h4>
-              <ul>
-                <li>
-                  <i className="bx bx-chevron-right"></i> <a href="#">Home</a>
-                </li>
-                <li>
-                  <i className="bx bx-chevron-right"></i>{' '}
-                  <a href="#">About us</a>
-                </li>
-                <li>
-                  <i className="bx bx-chevron-right"></i> <a href="#">Menu</a>
-                </li>
-                <li>
-                  <i className="bx bx-chevron-right"></i> <a href="#">Events</a>
-                </li>
-                <li>
-                  <i className="bx bx-chevron-right"></i> <a href="#">Gallery</a>
-                </li>
-              </ul>
-            </div>
+    <h4>Useful Links</h4>
+    <ul>
+        <li>
+            <i className="bx bx-chevron-right"></i> <a href="#hero">Home</a>
+        </li>
+        <li>
+            <i className="bx bx-chevron-right"></i> <a href="#about">About</a>
+        </li>
+        <li>
+            <i className="bx bx-chevron-right"></i> <a href="#menu">Menu</a>
+        </li>
+        <li>
+            <i className="bx bx-chevron-right"></i> <a href="#events">Events</a>
+        </li>
+        <li>
+            <i className="bx bx-chevron-right"></i> <a href="#gallery">Gallery</a>
+        </li>
+    </ul>
+</div>
+
 
             <div className="col-lg-3 col-md-6 footer-links">
               <h4>Our Services</h4>
