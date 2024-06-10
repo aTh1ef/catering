@@ -14,6 +14,7 @@ import "./globals.css";
 //import customised component
 import Header from './components/Header';
 import BackToTopBtn from './components/BackToTopBtn';
+import Footer from './sections/Footer';
 
 const playfair = Playfair_Display({
   subsets: ['latin'],
@@ -37,6 +38,7 @@ export default function RootLayout({
       <body className={playfair.className}>
         <Header/>
         {children}
+        <Footer />
         <BackToTopBtn />
       </body>
       <script 
