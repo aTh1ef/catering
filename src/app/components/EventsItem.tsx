@@ -1,5 +1,6 @@
 import React from 'react';
 import './eventsItem.css';
+import Image from 'next/image';
 
 export default function EventsItem({
     item,

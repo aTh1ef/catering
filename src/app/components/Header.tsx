@@ -33,7 +33,7 @@ export default function Header() {
           <img src="assets/images/logofinal.png" alt="Tellis Catering" className="img-fluid" />
         </a>
         <Nav />
-        <AppBtn name="book a table"/>
+        <AppBtn name="book an event"/>
       </div>
     </header> 
   );

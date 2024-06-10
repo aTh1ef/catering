@@ -27,7 +27,7 @@ export default function Hero() {
           <h2>Serving Exceptional Cuisine and Unmatched Hospitality Since 1998</h2>
           <div className="btns">
             <HeroBtn name="Our Menu" target="menu" />
-            <HeroBtn name="Book Us" target="book-a-table" />
+            <HeroBtn name="Contact Us" target="book-an-event" />
           </div>
         </div>
       </div>
