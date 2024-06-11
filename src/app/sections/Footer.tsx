@@ -6,85 +6,75 @@ export default function Footer() {
     <footer id="footer">
       <div className="footer-top">
         <div className="container">
-          <div className="row">
+          <div className="row justify-content-center">
+            <div className="col-lg-2 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <i className="bx bx-chevron-right"></i> <a href="#hero">Home</a>
+                </li>
+                <li>
+                  <i className="bx bx-chevron-right"></i> <a href="#about">About</a>
+                </li>
+                <li>
+                  <i className="bx bx-chevron-right"></i> <a href="#menu">Menu</a>
+                </li>
+                <li>
+                  <i className="bx bx-chevron-right"></i> <a href="#events">Events</a>
+                </li>
+                <li>
+                  <i className="bx bx-chevron-right"></i> <a href="#gallery">Gallery</a>
+                </li>
+              </ul>
+            </div>
+
             <div className="col-lg-3 col-md-6">
-              <div className="footer-info">
-                <h3> Tellis Caterers</h3>
+              <div className="footer-info text-center">
+                <h3>Tellis Caterers</h3>
                 <p>
                   Thokkotu <br />
-                  Mangalore
+                  Mangalore<br />
                   <br />
-                  <br />
-                  <strong>Phone:</strong> 9164747590
-                  <br />
-                  <br />
-                  <strong>Email:</strong> info@demo.com
-                  <br />
+                  <strong>Phone:</strong> 9164747590<br />
+                  <strong>Email:</strong> info@demo.com<br />
                 </p>
                 <div className="social-links mt-3">
-                  <a href="#" className="twitter">
+                  <a href="#" className="facebook">
                     <i className="bi bi-facebook"></i>
                   </a>
                   <a href="#" className="twitter">
-                    <i className="bi bi-facebook"></i>
+                    <i className="bi bi-twitter"></i>
                   </a>
-                  <a href="#" className="instagrem">
+                  <a href="#" className="instagram">
                     <i className="bi bi-instagram"></i>
                   </a>
-                  <a href="#" className="twitter">
+                  <a href="#" className="youtube">
                     <i className="bi bi-youtube"></i>
                   </a>
                   <a href="#" className="reddit">
-                    <i className="reddit"></i>
+                    <i className="bi bi-reddit"></i>
                   </a>
                 </div>
               </div>
             </div>
 
-            <div className="col-lg-2 col-md-6 footer-links">
-    <h4>Useful Links</h4>
-    <ul>
-        <li>
-            <i className="bx bx-chevron-right"></i> <a href="#hero">Home</a>
-        </li>
-        <li>
-            <i className="bx bx-chevron-right"></i> <a href="#about">About</a>
-        </li>
-        <li>
-            <i className="bx bx-chevron-right"></i> <a href="#menu">Menu</a>
-        </li>
-        <li>
-            <i className="bx bx-chevron-right"></i> <a href="#events">Events</a>
-        </li>
-        <li>
-            <i className="bx bx-chevron-right"></i> <a href="#gallery">Gallery</a>
-        </li>
-    </ul>
-</div>
-
-
             <div className="col-lg-3 col-md-6 footer-links">
               <h4>Our Services</h4>
               <ul>
                 <li>
-                  <i className="bx bx-chevron-right"></i>{' '}
-                  <a href="#">Functions</a>
+                  <i className="bx bx-chevron-right"></i> <a href="#">Functions</a>
                 </li>
                 <li>
-                  <i className="bx bx-chevron-right"></i>{' '}
-                  <a href="#">Wedding Events</a>
+                  <i className="bx bx-chevron-right"></i> <a href="#">Wedding Events</a>
                 </li>
                 <li>
-                  <i className="bx bx-chevron-right"></i>{' '}
-                  <a href="#">Birthday Parties</a>
+                  <i className="bx bx-chevron-right"></i> <a href="#">Birthday Parties</a>
                 </li>
                 <li>
-                  <i className="bx bx-chevron-right"></i>{' '}
-                  <a href="#">Private Events</a>
+                  <i className="bx bx-chevron-right"></i> <a href="#">Private Events</a>
                 </li>
                 <li>
-                  <i className="bx bx-chevron-right"></i>{' '}
-                  <a href="#">Custom Events</a>
+                  <i className="bx bx-chevron-right"></i> <a href="#">Custom Events</a>
                 </li>
               </ul>
             </div>
@@ -92,13 +82,9 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="container">
+      <div className="container text-center">
         <div className="copyright">
-          &copy; Copyright{' '}
-          <strong>
-            <span>Tellis Caterers</span>
-          </strong>
-          . All Rights Reserved
+          &copy; Copyright <strong><span>Tellis Caterers</span></strong>. All Rights Reserved
         </div>
         <div className="credits">
           Designed by <a href="#">WebTech</a>

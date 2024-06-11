@@ -32,6 +32,11 @@
     50% { opacity: 1; }
 }
 
+.contact iframe {
+    z-index: 1; /* Higher z-index */
+    position: relative; /* Ensure iframe is positioned relative to other content */
+}
+
 .contact .info {
     width: 100%;
     margin-bottom: 40px;
@@ -268,4 +273,3 @@
     font-weight: bold;
     font-size: 1em;
   }
-  

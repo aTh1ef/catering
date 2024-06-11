@@ -33,7 +33,7 @@ const WhyUs: React.FC = () => {
         <section id="why-us" className="why-us">
             <div className="container">
                 <SectionTitle title="why us" subtitle="Why Choose Our Catering" />
-                <div className="row">
+                <div className="row" style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
                     {whyUsData.map((item: any) => (
                         <WhyUsCard key={item.id} item={item} />
                     ))}
