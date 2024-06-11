@@ -40,7 +40,7 @@ export const whyUs = [
       id: 1,
       name: 'Mutton Gravy (Red)',
       preview: '/assets/images/menu/lobster-bisque.jpg',
-      ingredients: 'Lorem, deren, trataro, filede, nerada',
+      //ingredients: 'Lorem, deren, trataro, filede, nerada',
       category: 'mutton',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -50,7 +50,7 @@ export const whyUs = [
       id: 2,
       name: 'Mutton Gravy (Green)',
       preview: '/assets/images/menu/bread-barrel.jpg',
-      ingredients: 'Lorem, deren, trataro, filede, nerada',
+      //ingredients: 'Lorem, deren, trataro, filede, nerada',
       category: 'mutton',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -60,8 +60,7 @@ export const whyUs = [
       id: 3,
       name: 'Mutton Kurma',
       preview: '/assets/images/menu/cake.jpg',
-      ingredients:
-        'A delicate crab cake served on a toasted roll with lettuce and tartar sauce',
+     // ingredients:'A delicate crab cake served on a toasted roll with lettuce and tartar sauce',
       category: 'mutton',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -71,7 +70,7 @@ export const whyUs = [
       id: 4,
       name: 'Mutton Sukka',
       preview: '/assets/images/menu/caesar.jpg',
-      ingredients: 'Lorem, deren, trataro, filede, nerada',
+      //ingredients: 'Lorem, deren, trataro, filede, nerada',
       category: 'mutton',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -81,8 +80,7 @@ export const whyUs = [
       id: 5,
       name: 'Mutton Pepper',
       preview: '/assets/images/menu/tuscan-grilled.jpg',
-      ingredients:
-        'Grilled chicken with provolone, artichoke hearts, and roasted red pesto',
+      //ingredients:'Grilled chicken with provolone, artichoke hearts, and roasted red pesto',
       category: 'mutton',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -92,7 +90,7 @@ export const whyUs = [
       id: 6,
       name: 'Mutton Garlic',
       preview: '/assets/images/menu/mozzarella.jpg',
-      ingredients: 'Lorem, deren, trataro, filede, nerada',
+     // ingredients: 'Lorem, deren, trataro, filede, nerada',
       category: 'mutton',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -102,7 +100,7 @@ export const whyUs = [
       id: 7,
       name: 'Mutton Stoo',
       preview: '/assets/images/menu/greek-salad.jpg',
-      ingredients: 'Fresh spinach, crisp romaine, tomatoes, and Greek olives',
+      //ingredients: 'Fresh spinach, crisp romaine, tomatoes, and Greek olives',
       category: 'mutton',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -112,8 +110,7 @@ export const whyUs = [
       id: 8,
       name: 'Mutton Biryani (Fry)',
       preview: '/assets/images/menu/spinach-salad.jpg',
-      ingredients:
-        'Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette',
+      //ingredients:'Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette',
       category: 'mutton',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -123,8 +120,7 @@ export const whyUs = [
       id: 9,
       name: 'Mutton Pulav',
       preview: '/assets/images/menu/lobster-roll.jpg',
-      ingredients:
-        'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
+      //ingredients:'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
       category: 'mutton',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -134,8 +130,7 @@ export const whyUs = [
       id: 10,
       name: 'Mutton Lollypop',
       preview: '/assets/images/menu/lobster-roll.jpg',
-      ingredients:
-        'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
+      //ingredients:'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
       category: 'mutton',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -145,8 +140,7 @@ export const whyUs = [
       id: 11,
       name: 'Mutton Pepper Fry',
       preview: '/assets/images/menu/lobster-roll.jpg',
-      ingredients:
-        'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
+     // ingredients:'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
       category: 'mutton',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -156,8 +150,7 @@ export const whyUs = [
       id: 12,
       name: 'Mutton Ginger',
       preview: '/assets/images/menu/lobster-roll.jpg',
-      ingredients:
-        'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
+     // ingredients:'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
       category: 'mutton',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -167,8 +160,7 @@ export const whyUs = [
       id: 13,
       name: 'Mutton Chops',
       preview: '/assets/images/menu/lobster-roll.jpg',
-      ingredients:
-        'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
+      //ingredients: 'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
       category: 'mutton',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -178,8 +170,7 @@ export const whyUs = [
       id: 14,
       name: 'Chicken Gravy (Red)',
       preview: '/assets/images/menu/lobster-roll.jpg',
-      ingredients:
-        'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
+      //ingredients:'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
       category: 'chicken',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -189,8 +180,7 @@ export const whyUs = [
       id: 15,
       name: 'Chicken Gravy (Green)',
       preview: '/assets/images/menu/lobster-roll.jpg',
-      ingredients:
-        'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
+      //ingredients:'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
       category: 'chicken',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -200,8 +190,7 @@ export const whyUs = [
       id: 16,
       name: 'Chicken Sukka',
       preview: '/assets/images/menu/lobster-roll.jpg',
-      ingredients:
-        'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
+     // ingredients:'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
       category: 'chicken',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -211,8 +200,7 @@ export const whyUs = [
       id: 17,
       name: 'Chicken 65',
       preview: '/assets/images/menu/lobster-roll.jpg',
-      ingredients:
-        'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
+     // ingredients:'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
       category: 'chicken',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -222,8 +210,7 @@ export const whyUs = [
       id: 18,
       name: 'Chicken Pepper',
       preview: '/assets/images/menu/lobster-roll.jpg',
-      ingredients:
-        'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
+      //ingredients:'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
       category: 'chicken',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -233,8 +220,7 @@ export const whyUs = [
       id: 19,
       name: 'Chicken Garlic',
       preview: '/assets/images/menu/lobster-roll.jpg',
-      ingredients:
-        'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
+      //ingredients: 'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
       category: 'chicken',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -244,8 +230,8 @@ export const whyUs = [
       id: 20,
       name: 'Chicken Manchurian',
       preview: '/assets/images/menu/lobster-roll.jpg',
-      ingredients:
-        'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
+      //ingredients:
+       // 'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
       category: 'chicken',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -255,8 +241,8 @@ export const whyUs = [
       id: 21,
       name: 'Chicken Chilli',
       preview: '/assets/images/menu/lobster-roll.jpg',
-      ingredients:
-        'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
+     // ingredients:
+      //  'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
       category: 'chicken',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -266,8 +252,8 @@ export const whyUs = [
       id: 22,
       name: 'Chicken Kebab',
       preview: '/assets/images/menu/lobster-roll.jpg',
-      ingredients:
-        'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
+      //ingredients:
+      //  'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
       category: 'chicken',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -277,8 +263,8 @@ export const whyUs = [
       id: 23,
       name: 'Chicken Lollypop',
       preview: '/assets/images/menu/lobster-roll.jpg',
-      ingredients:
-        'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
+      //ingredients:
+       // 'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
       category: 'chicken',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -288,8 +274,8 @@ export const whyUs = [
       id: 24,
       name: 'Chicken Roce Curry',
       preview: '/assets/images/menu/lobster-roll.jpg',
-      ingredients:
-        'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
+      //ingredients:
+       // 'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
       category: 'chicken',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -299,8 +285,8 @@ export const whyUs = [
       id: 25,
       name: 'Chicken Biryani',
       preview: '/assets/images/menu/lobster-roll.jpg',
-      ingredients:
-        'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
+      //ingredients:
+       // 'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
       category: 'chicken',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -310,8 +296,8 @@ export const whyUs = [
       id: 26,
       name: 'Lemon Chicken',
       preview: '/assets/images/menu/lobster-roll.jpg',
-      ingredients:
-        'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
+      //ingredients:
+      //  'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
       category: 'chicken',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -321,8 +307,8 @@ export const whyUs = [
       id: 27,
       name: 'Chicken Hyderabad',
       preview: '/assets/images/menu/lobster-roll.jpg',
-      ingredients:
-        'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
+      //ingredients:
+        //'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
       category: 'chicken',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -331,9 +317,9 @@ export const whyUs = [
     {
       id: 28,
       name: 'Chicken Kundapur',
-      preview: '/assets/images/menu/lobster-roll.jpg',
-      ingredients:
-        'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
+     // preview: '/assets/images/menu/lobster-roll.jpg',
+     // ingredients:
+      //  'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
       category: 'chicken',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -342,9 +328,9 @@ export const whyUs = [
     {
       id: 29,
       name: 'Chicken Tandoori',
-      preview: '/assets/images/menu/lobster-roll.jpg',
-      ingredients:
-        'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
+     // preview: '/assets/images/menu/lobster-roll.jpg',
+      //ingredients:
+       // 'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
       category: 'chicken',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -353,9 +339,9 @@ export const whyUs = [
     {
       id: 30,
       name: 'Chicken Ginger',
-      preview: '/assets/images/menu/lobster-roll.jpg',
-      ingredients:
-        'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
+     // preview: '/assets/images/menu/lobster-roll.jpg',
+     // ingredients:
+      //  'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
       category: 'chicken',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -364,9 +350,9 @@ export const whyUs = [
     {
       id: 31,
       name: 'Chicken Chops',
-      preview: '/assets/images/menu/lobster-roll.jpg',
-      ingredients:
-        'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
+     // preview: '/assets/images/menu/lobster-roll.jpg',
+      //ingredients:
+    //    'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
       category: 'chicken',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -375,9 +361,9 @@ export const whyUs = [
     {
       id: 32,
       name: 'Pork Bafath',
-      preview: '/assets/images/menu/lobster-roll.jpg',
-      ingredients:
-        'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
+    //  preview: '/assets/images/menu/lobster-roll.jpg',
+   //   ingredients:
+   //     'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
       category: 'pork',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.
@@ -386,9 +372,9 @@ export const whyUs = [
     {
       id: 33,
       name: 'Pork Chilly (Chinese)',
-      preview: '/assets/images/menu/lobster-roll.jpg',
-      ingredients:
-        'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
+     // preview: '/assets/images/menu/lobster-roll.jpg',
+     // ingredients:
+     //   'Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll',
       category: 'pork',
       description: `Phasellus malesuada sapien erat, non lacinia tortor tincidunt at. Donec auctor nisi congue placerat blandit. In hac habitasse platea dictumst. Nunc dictum pellentesque maximus. Vivamus sit amet augue fringilla, aliquam arcu eu, iaculis massa. Duis condimentum nulla et erat dictum, eu consectetur lorem consequat. In hac habitasse platea dictumst. Vivamus scelerisque luctus est vel facilisis. Etiam accumsan mollis orci, viverra gravida ex. Ut aliquet sem et condimentum ultrices.
       Ut ut felis aliquet, fringilla magna eu, ullamcorper lorem. Phasellus porta sollicitudin massa, at porttitor tortor auctor at. Mauris venenatis efficitur fringilla. Fusce at ligula nisi. Suspendisse commodo commodo lectus, non tempus sem luctus vel. Donec at lorem ipsum. Aliquam a venenatis augue. Aenean eget nisi enim. Integer convallis euismod luctus.

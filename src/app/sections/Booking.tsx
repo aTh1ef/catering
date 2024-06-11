@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import './booking.css';
 import SectionTitle from '../components/SectionTitle';
+import emailjs from '@emailjs/browser';
 
 export default function Booking() {
     const initialState = {
@@ -35,26 +36,33 @@ export default function Booking() {
             setText({ ...text, validate: 'incomplete' });
             return;
         }
-        // Post request sent
+
+        setText({ ...text, validate: 'loading' });
+
+        // Prepare email parameters
+        const emailParams = {
+            to_name: 'Ateef',
+            from_name: text.name,
+            from_email: text.email,
+            phone: text.phone,
+            date: text.date,
+            time: text.time,
+            people: text.people,
+            message: text.message,
+        };
+
+        // Send email using EmailJS
         try {
-            setText({ ...text, validate: 'loading' });
-
-            const response = await fetch('http://localhost:3000/api/booking', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(text),
-            });
-
-            const result = await response.json();
-            if (result) {
-                setText({ ...text, validate: 'success' });
-                //console.log('Success:', result);
-            }
+            await emailjs.send(
+                'service_x9a5etr', // Replace with your EmailJS service ID
+                'template_u799pod', // Replace with your EmailJS template ID
+                emailParams,
+                'CWK5qhkMCj_SVoC0X' // Replace with your EmailJS public key
+            );
+            setText({ ...text, validate: 'success' });
         } catch (error) {
+            console.error('Error sending email:', error);
             setText({ ...text, validate: 'error' });
-            //console.log('Error:', error);
         }
     };
 
@@ -101,32 +109,34 @@ export default function Booking() {
                             />
                         </div>
                         <div className="col-lg-4 col-md-6 form-group mt-3">
-                            <input
-                                type="date"
-                                name="date"
-                                className="form-control"
-                                value={text.date}
-                                placeholder="Date"
-                                onChange={handleTextChange}
-                            />
-                        </div>
-                        <div className="col-lg-4 col-md-6 form-group mt-3">
-                            <input
-                                type="time"
-                                className="form-control"
-                                name="time"
-                                value={text.time}
-                                placeholder="Time"
-                                onChange={handleTextChange}
-                            />
-                        </div>
+    <input
+        type="date"
+        name="date"
+        className="form-control input-w-auto"
+        value={text.date}
+        placeholder="Date"
+        onChange={handleTextChange}
+        onClick={(e) => e.currentTarget.showPicker()}
+    />
+</div>
+<div className="col-lg-4 col-md-6 form-group mt-3">
+    <input
+        type="time"
+        className="form-control"
+        name="time"
+        value={text.time}
+        placeholder="Time"
+        onChange={handleTextChange}
+        onClick={(e) => e.currentTarget.showPicker()}
+    />
+</div>
                         <div className="col-lg-4 col-md-6 form-group mt-3">
                             <input
                                 type="number"
                                 className="form-control"
                                 name="people"
                                 value={text.people}
-                                placeholder="# of people"
+                                placeholder="Number of people"
                                 onChange={handleTextChange}
                             />
                         </div>
@@ -143,7 +153,7 @@ export default function Booking() {
                     </div>
                     <div className="mb-3">
                         {text.validate === 'loading' && (
-                            <div className="loading">Send Booking</div>
+                            <div className="loading">Sending Booking...</div>
                         )}
                         {text.validate === 'incomplete' && (
                             <div className="error-message">
@@ -157,7 +167,7 @@ export default function Booking() {
                             </div>
                         )}
                         {text.validate === 'error' && (
-                            <div className="error-message">Server Error</div>
+                            <div className="error-message">Server Error. Please try again.</div>
                         )}
                     </div>
                     <div className="text-center">
@@ -168,3 +178,5 @@ export default function Booking() {
         </section>
     );
 }
+
+

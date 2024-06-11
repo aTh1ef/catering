@@ -234,3 +234,38 @@
     color: #fff;
 }
 
+/* Add to your contact.css */
+
+/* Styling for the status container and messages */
+.status-container {
+    margin-top: 15px;
+  }
+  
+  .status-message {
+    display: inline-block;
+    background: #cda45e;
+    color: #fff;
+    padding: 10px 35px;
+    border-radius: 50px;
+    margin-top: 10px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .status-message.loading {
+    background: #f0ad4e;
+  }
+  
+  .status-message.success {
+    background: #18d26e;
+  }
+  
+  .status-message.error {
+    background: #ed3c0d;
+  }
+  
+  /* Optional: Add a little more styling for better visuals */
+  .status-message {
+    font-weight: bold;
+    font-size: 1em;
+  }
+  
