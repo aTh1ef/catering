@@ -10,13 +10,15 @@
     margin: 0;
     display: flex;
     justify-content: center;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Ensure items don't wrap to the next line */
 }
 
 #menu-filters li {
     cursor: pointer;
-    padding: 8px 12px; /* Adjust padding for mobile view */
-    margin-right: 8px; /* Adjust margin as needed */
-    font-size: 14px; /* Adjust font size for mobile view */
+    padding: 8px 12px; /* Adjust padding for desktop view */
+    margin: 4px; /* Adjust margin for better spacing */
+    font-size: 14px; /* Adjust font size for desktop view */
     font-weight: bold;
     color: #fbfbfb; /* Adjust color as needed */
     border-radius: 5px; /* Adjust border radius as needed */
@@ -26,10 +28,14 @@
 
 /* Media query for smaller screens (up to 768px) */
 @media (max-width: 768px) {
+    #menu-filters {
+        justify-content: flex-start; /* Align items to the start for better scrolling */
+    }
+
     #menu-filters li {
-        padding: 6px 10px; /* Further reduce padding for smaller screens */
+        padding: 4px 6px; /* Further reduce padding for smaller screens */
         font-size: 12px; /* Further reduce font size for smaller screens */
-        margin-right: 6px; /* Adjust margin as needed */
+        margin: 2px; /* Adjust margin for better spacing */
     }
 }
 
@@ -56,5 +62,3 @@
     background-color: #f3f3f3;
     color: #555;
 }
-
-
