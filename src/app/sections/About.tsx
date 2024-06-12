@@ -1,4 +1,4 @@
-'use client'; 
+'use client';
 
 import React, { useEffect, useState } from 'react';
 import aboutImage from '../../../public/assets/images/about.jpg';
@@ -39,14 +39,14 @@ export default function About() {
               <SectionTitle title="About Us" subtitle="Learn more about us" />
             </div>
             <p>
-              Embark on a culinary journey with Tellis Caterers, where excellence meets taste since 1998! Founded by Marcel Tellis, we take pride in being one of the premier catering and event organizing services in and around Mangalore. With over two decades of experience under our belt, we've mastered the art of crafting unforgettable experiences for any occasion.
+              Embark on a culinary journey with Tellis Caterers, where excellence meets taste since 1998! Founded by Marcel Tellis, we take pride in being one of the premier catering and event organizing services in and around Mangalore. With over two decades of experience under our belt, we&apos;ve mastered the art of crafting unforgettable experiences for any occasion.
             </p>
             <ul>
               <li>
-                <i className="bi bi-check-circle"></i> From wedding celebrations to grand custom parties, we've successfully conducted and catered to over 5000 events, earning us a reputation for impeccable service and delectable cuisine.
+                <i className="bi bi-check-circle"></i> From wedding celebrations to grand custom parties, we&apos;ve successfully conducted and catered to over 5000 events, earning us a reputation for impeccable service and delectable cuisine.
               </li>
               <li>
-                <i className="bi bi-check-circle"></i> At Tellis Caterers, we don't just create events; we curate moments that last a lifetime, where every detail is meticulously planned and executed with passion and precision.
+                <i className="bi bi-check-circle"></i> At Tellis Caterers, we don&apos;t just create events; we curate moments that last a lifetime, where every detail is meticulously planned and executed with passion and precision.
               </li>
               <li>
                 <i className="bi bi-check-circle"></i> Join us on a journey of culinary and event planning excellence, where every occasion is transformed into an unforgettable experience.

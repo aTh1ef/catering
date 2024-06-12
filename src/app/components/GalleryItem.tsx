@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import GLightbox from 'glightbox';
 import 'glightbox/dist/css/glightbox.min.css'; // Import GLightbox styles
 import './galleryItem.css';
 import Image from 'next/image';
@@ -13,9 +12,17 @@ export default function GalleryItem({
     };
 }) {
     useEffect(() => {
-        const lightbox = GLightbox({
-            selector: '.gallery-lightbox',
-        });
+        // Import GLightbox dynamically
+        const initLightbox = async () => {
+            const GLightbox = (await import('glightbox')).default;
+            GLightbox({
+                selector: '.gallery-lightbox',
+            });
+        };
+
+        if (typeof window !== 'undefined') {
+            initLightbox();
+        }
     }, []);
 
     return (

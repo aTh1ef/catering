@@ -1,18 +1,10 @@
 'use client';
 
-import React, { useEffect } from 'react';
-import GLightbox from 'glightbox';
-import 'glightbox/dist/css/glightbox.css';
+import React from 'react';
 import './hero.css';
 import HeroBtn from '../components/HeroBtn';
 
 export default function Hero() {
-  useEffect(() => {
-    GLightbox({
-      selector: '.glightbox',
-    });
-  }, []);
-
   return (
     <section id="hero" className="d-flex align-items-center justify-content-center">
       <video autoPlay muted loop>
